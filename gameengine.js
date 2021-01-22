@@ -87,7 +87,7 @@ class GameEngine {
         }, false);
 
         this.ctx.canvas.addEventListener("click", function (e) {
-            c.startAttack();
+            c.changeAnimation();
             that.click = getXandY(e);
         }, false);
 
